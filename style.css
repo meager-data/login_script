@@ -1,0 +1,72 @@
+body{
+	background-color:#999999;
+}
+
+#login_box{
+	color:#ffffff;
+	width:240px;
+	height:125px;
+	background-color:#333333;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:200px;
+}
+
+#username #password{
+	width:100px;
+}
+
+#password_line{
+	width:240px;
+	height:20px;
+	margin-right:auto;
+	margin-left:auto;
+	float:left;
+	margin-top:5px;
+	text-align:right;
+}
+
+#username_line{
+	width:240px;
+	height:30px;
+	margin-right:auto;
+	margin-left:auto;
+	float:left;
+	margin-top:20px;
+	text-align:right;
+}
+
+#submit_button{
+	width:55px;
+	float:right;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+#reg_link a{
+	color:#6699FF;
+	margin-top:10px;
+	float:left;
+	margin-left:10px;
+}
+
+#link a{
+	color:#6699FF;
+	margin-top:10px;
+	margin-left:10px;
+}
+
+#register_box{
+	color:#ffffff;
+	width:240px;
+	height:125px;
+	background-color:#333333;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:200px;
+}
+
+#welcome{
+	width:240px;
+	text-align:center;
+}
