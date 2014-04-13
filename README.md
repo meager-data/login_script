@@ -8,6 +8,6 @@ This is just the bare bones of a user login system. More can be added to it, dep
 <h4>TODO</h4>
 <ol>
 <li>Add more to README.md</li>
-<li><li>Add detailed instructions on how to incorporate into website</li></li>
+<li>Add detailed instructions on how to incorporate into website</li>
 <li>Make a php function to get user information from database table</li>
 </ol>
