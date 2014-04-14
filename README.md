@@ -9,5 +9,5 @@ This is just the bare bones of a user login system. More can be added to it, dep
 <ol>
 <li>Add more to README.md</li>
 <li>Add detailed instructions on how to incorporate into website</li>
-<li>Make a php function to get user information from database table</li>
+<li>Add a TODO.md page instead of listing TODO on README.md</li>
 </ol>
