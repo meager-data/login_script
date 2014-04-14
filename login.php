@@ -33,8 +33,4 @@ $password_hash = md5($password);
 	echo 'You must supply a username and password <a href="index.php" >Go Back</a>';
 	}
 }
-else{
-	echo "You are empty!";
-	mysql_error();
-}
 ?>
