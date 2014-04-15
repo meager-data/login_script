@@ -1,13 +1,14 @@
 <?php
 include 'connection.php';
-function getusername($con){
-		$query = "SELECT `username` FROM `members` WHERE `ID`='".$_SESSION['user_id']."'";
+//This function retrieves a specified field from the database table
+function getuserfield($con,$field){
+		$query = "SELECT `".$field."` FROM `members` WHERE `ID`='".$_SESSION['user_id']."'";
 		
 		if($result = mysqli_query($con, $query)){
 			while($row = mysqli_fetch_assoc($result)){
-				return $row['username'];
+				return $row[$field];
 			}
 		}
 }
-$_SESSION['username'] = getusername($con);
+$_SESSION['username'] = getuserfield($con,'username');
 ?>
